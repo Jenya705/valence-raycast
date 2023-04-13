@@ -1,0 +1,11 @@
+[package]
+name = "valence-raycast"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam = "0.23"
+parry3d-f64 = "0.13"
+bevy_ecs = "0.10"
+valence = { git = "https://github.com/valence-rs/valence" }
+voxel-tile-raycast = { git = "https://github.com/jenya705/voxel-tile-raycast" }
